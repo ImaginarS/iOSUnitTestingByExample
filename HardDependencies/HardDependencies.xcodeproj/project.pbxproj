@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CD284B8E26086BE500E76BE7 /* OverrideViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD284B8D26086BE500E76BE7 /* OverrideViewControllerTests.swift */; };
 		CD284B9326086F0300E76BE7 /* InstanceInitializerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD284B9226086F0300E76BE7 /* InstanceInitializerViewControllerTests.swift */; };
+		CD284B9B2608710100E76BE7 /* InstancePropertyViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD284B9A2608710100E76BE7 /* InstancePropertyViewControllerTests.swift */; };
 		CD75947826084EDD00F12299 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD75947726084EDD00F12299 /* Analytics.swift */; };
 		CD75947D26084F9700F12299 /* MySingletonAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD75947C26084F9700F12299 /* MySingletonAnalytics.swift */; };
 		CD7594852608511600F12299 /* InstancePropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7594842608511600F12299 /* InstancePropertyViewController.swift */; };
@@ -52,6 +53,7 @@
 /* Begin PBXFileReference section */
 		CD284B8D26086BE500E76BE7 /* OverrideViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverrideViewControllerTests.swift; sourceTree = "<group>"; };
 		CD284B9226086F0300E76BE7 /* InstanceInitializerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceInitializerViewControllerTests.swift; sourceTree = "<group>"; };
+		CD284B9A2608710100E76BE7 /* InstancePropertyViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstancePropertyViewControllerTests.swift; sourceTree = "<group>"; };
 		CD75947726084EDD00F12299 /* Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
 		CD75947C26084F9700F12299 /* MySingletonAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySingletonAnalytics.swift; sourceTree = "<group>"; };
 		CD7594842608511600F12299 /* InstancePropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstancePropertyViewController.swift; sourceTree = "<group>"; };
@@ -172,10 +174,11 @@
 			isa = PBXGroup;
 			children = (
 				CDB519BA26084D6400EE75B4 /* HardDependenciesTests.swift */,
-				CDB519BC26084D6400EE75B4 /* Info.plist */,
 				CD7594BB2608644F00F12299 /* SingletonViewControllerTests.swift */,
 				CD284B8D26086BE500E76BE7 /* OverrideViewControllerTests.swift */,
 				CD284B9226086F0300E76BE7 /* InstanceInitializerViewControllerTests.swift */,
+				CD284B9A2608710100E76BE7 /* InstancePropertyViewControllerTests.swift */,
+				CDB519BC26084D6400EE75B4 /* Info.plist */,
 			);
 			path = HardDependenciesTests;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD284B9B2608710100E76BE7 /* InstancePropertyViewControllerTests.swift in Sources */,
 				CD7594BC2608644F00F12299 /* SingletonViewControllerTests.swift in Sources */,
 				CDB519BB26084D6400EE75B4 /* HardDependenciesTests.swift in Sources */,
 				CD284B9326086F0300E76BE7 /* InstanceInitializerViewControllerTests.swift in Sources */,
